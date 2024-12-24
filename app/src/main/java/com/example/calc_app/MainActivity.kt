@@ -76,6 +76,7 @@ fun CalculatorApp() {
 
             // Кнопки калькулятора
             val buttons = listOf(
+                listOf("sin", "cos", "tan", "cot"),
                 listOf("7", "8", "9", "/"),
                 listOf("4", "5", "6", "*"),
                 listOf("1", "2", "3", "-"),
@@ -143,10 +144,47 @@ fun CalculatorButton(
 // Функция для вычислений с использованием exp4j
 fun calculateResult(expression: String): String {
     return try {
-        val sanitizedExpression = expression.replace("x", "*")
-        val result = ExpressionBuilder(sanitizedExpression).build().evaluate()
+        // Проверка деления на 0
+        if (expression.contains("/ 0")) {
+            return "Ошибка"
+        }
+
+        val sanitizedExpression = expression
+            .replace("sin", "sinr") // Временные метки для замены
+            .replace("cos", "cosr")
+            .replace("tan", "tanr")
+            .replace("cot", "cotr")
+
+        val expressionBuilder = ExpressionBuilder(sanitizedExpression)
+            .function(object : net.objecthunter.exp4j.function.Function("sinr", 1) {
+                override fun apply(vararg args: Double): Double {
+                    return Math.sin(Math.toRadians(args[0]))
+                }
+            })
+            .function(object : net.objecthunter.exp4j.function.Function("cosr", 1) {
+                override fun apply(vararg args: Double): Double {
+                    return Math.cos(Math.toRadians(args[0]))
+                }
+            })
+            .function(object : net.objecthunter.exp4j.function.Function("tanr", 1) {
+                override fun apply(vararg args: Double): Double {
+                    return Math.tan(Math.toRadians(args[0]))
+                }
+            })
+            .function(object : net.objecthunter.exp4j.function.Function("cotr", 1) {
+                override fun apply(vararg args: Double): Double {
+                    val tanValue = Math.tan(Math.toRadians(args[0]))
+                    return if (tanValue == 0.0) Double.POSITIVE_INFINITY else 1 / tanValue
+                }
+            })
+            .build()
+
+        val result = expressionBuilder.evaluate()
         result.toString()
+    } catch (e: ArithmeticException) {
+        "Ошибка"
     } catch (e: Exception) {
         "Ошибка"
     }
 }
+
