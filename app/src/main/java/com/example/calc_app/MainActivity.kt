@@ -73,14 +73,34 @@ fun CalculatorApp() {
                     )
                 }
             }
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(64.dp) // Высота кнопки
+                    .background(Color(0xFF8AB4F8), RoundedCornerShape(8.dp))
+                    .clickable {
+                        result = calculateResult(input) // Выполнение вычисления
+                    },
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = "=",
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White,
+                    textAlign = TextAlign.Center
+                )
+            }
 
             // Кнопки калькулятора
             val buttons = listOf(
+
                 listOf("sin", "cos", "tan", "cot"),
                 listOf("7", "8", "9", "/"),
                 listOf("4", "5", "6", "*"),
                 listOf("1", "2", "3", "-"),
-                listOf("C", "0", "=", "+")
+                listOf("C", "0", ".", "+")
             )
 
             buttons.forEach { row ->

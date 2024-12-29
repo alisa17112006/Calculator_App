@@ -39,4 +39,5 @@ class CalculatorUnitTest {
         assertEquals("Infinity", calculateResult("cot 0")) // Проверяем асимптоту cot(0)
     }
 
+
 }
