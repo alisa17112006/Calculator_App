@@ -39,5 +39,32 @@ class CalculatorUnitTest {
         assertEquals("Infinity", calculateResult("cot 0")) // Проверяем асимптоту cot(0)
     }
 
+    @Test
+    fun testConsecutiveOperators() {
+        assertEquals("Ошибка", calculateResult("5++5"))
+        assertEquals("Ошибка", calculateResult("5--5"))
+        assertEquals("Ошибка", calculateResult("5*/5"))
+    }
+
+    @Test
+    fun testComplexExpressions() {
+        assertEquals("9.0", calculateResult("3+2*3"))
+        assertEquals("5.0", calculateResult("10/2+2-1"))
+    }
+
+    @Test
+    fun testTrigonometricEdgeCases() {
+        assertEquals("0.0", calculateResult("sin 180"))
+        assertEquals("1.0", calculateResult("cos 0"))
+        assertEquals("0.0", calculateResult("tan 0"))
+        assertEquals("Infinity", calculateResult("cot 0"))
+    }
+
+    @Test
+    fun testNegativeNumbers() {
+        assertEquals("-2.0", calculateResult("-1-1"))
+        assertEquals("0.0", calculateResult("-1+1"))
+    }
+
 
 }
