@@ -6,7 +6,7 @@ This is an Android calculator application built using Jetpack Compose. The app s
 ## Functionalities  
 - Basic arithmetic operations (+, -, *, /).
 
-<img src="https://github.com/user-attachments/assets/0a290e14-67bf-43ce-874e-5abca7712873" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/20f3bf7b-0e7e-4b17-aa2b-ebe00cc00982" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/ab9dbdbd-1948-4d80-bfd0-ca30196f5727" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/b32ebd14-d5cc-4681-8b6f-ceef1b2cc172" alt="Пример изображения" width="205"/>
+<img src="https://github.com/user-attachments/assets/0a290e14-67bf-43ce-874e-5abca7712873" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/20f3bf7b-0e7e-4b17-aa2b-ebe00cc00982" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/ab9dbdbd-1948-4d80-bfd0-ca30196f5727" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/b32ebd14-d5cc-4681-8b6f-ceef1b2cc172" alt="Пример изображения" width="150"/>
 
 
 
@@ -14,7 +14,7 @@ This is an Android calculator application built using Jetpack Compose. The app s
 - Trigonometric functions (sin, cos, tan, cot).
 
   
-<img src="https://github.com/user-attachments/assets/aea22ab0-7862-477a-b713-e7ac8200bcc9" alt="Пример изображения" width="200"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/bf6417ca-1aa8-47e0-b631-d511239b78ce" alt="Пример изображения" width="200"/> &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/8e4f9608-f3d6-4348-ae4c-eab9510e7bc7" alt="Пример изображения" width="200"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/85d24c31-364b-4072-9b9d-513859712479" alt="Пример изображения" width="200"/>
+<img src="https://github.com/user-attachments/assets/aea22ab0-7862-477a-b713-e7ac8200bcc9" alt="Пример изображения" width="150"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/bf6417ca-1aa8-47e0-b631-d511239b78ce" alt="Пример изображения" width="150"/> &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/8e4f9608-f3d6-4348-ae4c-eab9510e7bc7" alt="Пример изображения" width="150"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/85d24c31-364b-4072-9b9d-513859712479" alt="Пример изображения" width="150"/>
 
 
 
@@ -57,12 +57,12 @@ This project is beneficial for:
 
 1) Основные арифметические операции (+, -, *, /).
 
-<img src="https://github.com/user-attachments/assets/0a290e14-67bf-43ce-874e-5abca7712873" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/20f3bf7b-0e7e-4b17-aa2b-ebe00cc00982" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/ab9dbdbd-1948-4d80-bfd0-ca30196f5727" alt="Пример изображения" width="200"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/b32ebd14-d5cc-4681-8b6f-ceef1b2cc172" alt="Пример изображения" width="205"/>
+<img src="https://github.com/user-attachments/assets/0a290e14-67bf-43ce-874e-5abca7712873" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/20f3bf7b-0e7e-4b17-aa2b-ebe00cc00982" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/ab9dbdbd-1948-4d80-bfd0-ca30196f5727" alt="Пример изображения" width="150"/>  &nbsp;&nbsp;  <img src="https://github.com/user-attachments/assets/b32ebd14-d5cc-4681-8b6f-ceef1b2cc172" alt="Пример изображения" width="150"/>
 
 
 2) Тригонометрические функции (sin, cos, tan, cot).
 
-<img src="https://github.com/user-attachments/assets/aea22ab0-7862-477a-b713-e7ac8200bcc9" alt="Пример изображения" width="200"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/bf6417ca-1aa8-47e0-b631-d511239b78ce" alt="Пример изображения" width="200"/> &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/8e4f9608-f3d6-4348-ae4c-eab9510e7bc7" alt="Пример изображения" width="200"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/85d24c31-364b-4072-9b9d-513859712479" alt="Пример изображения" width="200"/>
+<img src="https://github.com/user-attachments/assets/aea22ab0-7862-477a-b713-e7ac8200bcc9" alt="Пример изображения" width="150"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/bf6417ca-1aa8-47e0-b631-d511239b78ce" alt="Пример изображения" width="150"/> &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/8e4f9608-f3d6-4348-ae4c-eab9510e7bc7" alt="Пример изображения" width="150"/>  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/85d24c31-364b-4072-9b9d-513859712479" alt="Пример изображения" width="150"/>
 
 
 
